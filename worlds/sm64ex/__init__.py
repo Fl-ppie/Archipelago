@@ -1,13 +1,13 @@
 import typing
 import os
 import json
-from .Items import item_data_table, action_item_data_table, cannon_item_data_table, item_table, SM64Item
-from .Locations import location_table, SM64Location
-from .Options import sm64_options_groups, SM64Options
-from .Rules import set_rules
-from .Regions import create_regions, sm64_level_to_entrances, SM64Levels
+from worlds.sm64ex.Items import item_data_table, action_item_data_table, cannon_item_data_table, item_table, SM64Item
+from worlds.sm64ex.Locations import location_table, SM64Location
+from worlds.sm64ex.Options import sm64_options_groups, SM64Options
+from worlds.sm64ex.Rules import set_rules
+from worlds.sm64ex.Regions import create_regions, sm64_level_to_entrances, SM64Levels
 from BaseClasses import Item, Tutorial, ItemClassification, Region
-from ..AutoWorld import World, WebWorld
+from worlds.AutoWorld import World, WebWorld
 
 
 class SM64Web(WebWorld):
